@@ -6,5 +6,9 @@ api.get("/status", function(req,res){
     res.send("service is running")
     console.log("service is running")
 })
+api.get("/", function(req,res){
+    res.send("service is running")
+    console.log("service is running")
+})
 
 module.exports = api
